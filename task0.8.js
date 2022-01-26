@@ -4,8 +4,14 @@ function hoursMinutes(number)
   
     hours= parseInt(number/60);
     minutes=number%60;
-    return hours + " hour(s),"+minutes+ " minute(s)";
-
-
+    if (hours>1)
+    {
+        return hours + " hours,"+minutes+ " minutes";
+    }
+    else if(hours=1)
+    {
+        return hours + " hour,"+minutes+ " minutes";
+    }
+    
 }
 console.log(hoursMinutes(133))
