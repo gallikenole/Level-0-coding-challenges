@@ -1,13 +1,13 @@
-function temperatureConversion1(tempC)
+function celsiusToFahrenheit(tempC)
 {
     tempInF=tempC*1.8+32;
     return tempInF
 }
-console.log(temperatureConversion1(28))
+console.log(celsiusToFahrenheit(28))
 
-function temperatureConversion2(tempF)
+function fahrenheitToCelsius(tempF)
 {
     tempInC=(tempF-32)/1.8;
     return tempInC
 }
-console.log(temperatureConversion2(271))
+console.log(fahrenheitToCelsius(271))
