@@ -1,4 +1,4 @@
-function AreaTriangle(side1,side2,side3)
+function areaTriangle(side1,side2,side3)
 {
     
    const s = (side1 + side2 + side3) / 2;
@@ -8,4 +8,4 @@ function AreaTriangle(side1,side2,side3)
    return area
     
 }
-    console.log(AreaTriangle(3,4,5));
+    console.log(areaTriangle(3,4,5));
