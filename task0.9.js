@@ -15,6 +15,6 @@ function vowels(String)
     }
    }
 
-    console.log(vowelList)
+      console.log("Vowels: "+vowelList)
 }
       (vowels("Umuzi"))
