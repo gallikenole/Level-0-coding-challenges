@@ -1,7 +1,7 @@
 function evenOrOdd(number){
 
   
-   if(number%2==0) 
+   if(number%2===0) 
    {
        console.log("Even");
    }
@@ -10,4 +10,4 @@ function evenOrOdd(number){
        console.log("Odd");
    }
 }
-console.log(evenOrOdd(8));
+  (evenOrOdd(8));
