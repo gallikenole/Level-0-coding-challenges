@@ -1,20 +1,20 @@
 function vowels(String)
 {   
    let changeCase=String.toLowerCase()
-   let vowellist= []
+   let vowelList= []
     
     for(i=0;i <changeCase.length;i++)
     {
       if (changeCase[i]=="a"||changeCase[i]=="e"||changeCase[i]=="i"||changeCase[i]=="o"||changeCase[i]=="u")
       { 
              
-       if(vowellist.indexOf(changeCase[i])==-1)  
+       if(vowelList.indexOf(changeCase[i])==-1)  
        {
-         vowellist.push(changeCase[i])
+         vowelList.push(changeCase[i])
        }    
     }
    }
 
-    console.log(vowellist)
+    console.log(vowelList)
 }
       (vowels("Umuzi"))
