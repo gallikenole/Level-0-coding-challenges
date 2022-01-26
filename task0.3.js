@@ -1,6 +1,6 @@
 function hello(name)
 {
-    return "Hello "+name+"!";
+    console.log("Hello "+name+"!");
 }
 
-console.log(hello("Tshepo"));
+(hello("Tshepo"));
