@@ -1,15 +1,20 @@
-function sameLettersCheck(string1,string2)
-{
-    for( var i = 0;i < string1.charAt;i++)
-    {
-        for( let j =0;j < string2.length();j++)
-        {
-            if(string1.charAt(i) == string2.charAt(j))
-            {
-                print(charAt);
-            }
-        }
-    }
+function sameLettersCheck(string1,string2){
+  let CommonLetters = [];
+
+  string1= string1.toLowerCase(); 
+  string2= string2.toLowerCase();  
+
+  
+  for (let i = 0; i < CommonLetters.length; i++ ){
+      for (let j = 0; j < CommonLetters.length; j++){
+              if (i !== j){
+                  if (CommonLetters[i]=== CommonLetters[j]){
+                  CommonLetters.push[j];
+              }
+          }
+      }
+  }
+return CommonLetters;
 
 }
-console.log(sameLettersCheck("house","computers"))
+console.log("Common letters: " + sameLettersCheck("house","computers"));
